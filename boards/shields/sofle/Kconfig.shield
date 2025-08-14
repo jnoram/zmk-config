@@ -1,9 +1,0 @@
-# SPDX-License-Identifier: MIT
-config SHIELD_SOFLE
-    bool "Sofle"
-    depends on SHIELD
-    select ZMK_DISPLAY
-    select SSD1306
-    select ZMK_SPLIT
-    help
-      Enable support for Sofle keyboard shield with OLED.

@@ -1,8 +1,0 @@
-// Map Sofle OLED power rail to Pro Micro pin 13 (nice!nano P0.13)
-/ {
-    ext_power: ext_power {
-        compatible = "gpio-switch";
-        gpios = <&pro_micro 13 GPIO_ACTIVE_LOW>;
-        label = "sofleswitch_left";
-    };
-};
