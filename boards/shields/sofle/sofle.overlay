@@ -1,0 +1,15 @@
+/ {
+    i2c0: &i2c0 {
+        status = "okay";
+        sda-pin = <6>;
+        scl-pin = <7>;
+
+        ssd1306@3c {
+            compatible = "solomon,ssd1306fb";
+            reg = <0x3c>;
+            label = "SSD1306";
+            width = <128>;
+            height = <32>;
+        };
+    };
+};
