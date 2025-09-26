@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ZMK Config Optimized for Sofle Keyboards
 
 This is a zmk config that uses a [zmk fork that is optimized for the sofle keyboard](https://github.com/infused-kim/zmk/tree/sofle). It improves encoder, display and underglow support of zmk.
@@ -26,7 +25,3 @@ However, while these fixes and features may not meet the quality standards of th
 5. Download the firmware from the actions tab
 
 Alternatively, you could probably even use github's built-in editor to edit the keymap and config file after forking.
-=======
-# zmk-config
-Sofle Choc V2
->>>>>>> origin/main
